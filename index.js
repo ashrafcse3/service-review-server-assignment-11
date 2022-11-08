@@ -18,7 +18,26 @@ app.get('/', (req, res) => {
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.4qifqp4.mongodb.net/?retryWrites=true&w=majority`;
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
-console.log(uri);
+async function run() {
+    try {
+        const servicesCollection = client.db("review_server").collection("services");
+
+        app.get('/services', async (req, res) => {
+            const query = {};
+
+            const cursor = servicesCollection.find(query);
+
+            const result = await cursor.toArray();
+
+            res.send(result);
+        })
+    }
+    finally {
+
+    }
+}
+
+run().catch(error => console.error(error));
 
 app.listen(port, () => {
     console.log(`Eye specialist app listening on port ${port} with nodemon`)
