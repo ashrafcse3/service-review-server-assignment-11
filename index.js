@@ -22,6 +22,7 @@ async function run() {
     try {
         const servicesCollection = client.db("review_server").collection("services");
         const reviewsCollection = client.db("review_server").collection("reviews");
+        const blogsCollection = client.db("review_server").collection("blogs");
 
         app.get('/services', async (req, res) => {
             const query = {};
@@ -60,6 +61,13 @@ async function run() {
             const result = await reviewsCollection.insertOne(review);
 
             res.send(result);
+        })
+
+        app.get('/blogs', async (req, res) => {
+            const query = {};
+            const blogs = await blogsCollection.find(query).toArray();
+
+            res.send(blogs);
         })
     }
     finally {
