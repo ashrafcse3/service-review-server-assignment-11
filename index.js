@@ -32,6 +32,16 @@ async function run() {
             res.send(result);
         })
 
+        app.get('/services-in-home', async (req, res) => {
+            const query = {};
+
+            const cursor = servicesCollection.find(query);
+
+            const result = await cursor.limit(3).toArray();
+
+            res.send(result);
+        })
+
         app.get('/service/:id', async (req, res) => {
             const id = req.params.id;
             const query = { _id: ObjectId(id) };
