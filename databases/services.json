@@ -1,0 +1,65 @@
+[{
+  "_id": {
+    "$oid": "636ab1406fbf03bf44767447"
+  },
+  "name": "Slit-lamp Exam",
+  "image": "https://res.cloudinary.com/leightons/image/upload/c_fill,f_auto,g_auto,h_600,w_800/nOeY7BzEml6vlZQ3dU784PJ19RoRyL8x9sMT2UYW.jpeg",
+  "price": 4400,
+  "description": "A slit lamp is a microscope that lets your doctor use intense light to enhance the view of your eye, so your doctor can examine the cornea, iris, lens and anterior chamber. When examining your cornea, your provider may use eye drops containing fluorescein dye. This orange dye makes it easier for your eye doctor to look for small cuts, scrapes, tears, foreign objects or infections on your cornea. As you blink, your natural tears will rinse the dye away."
+},{
+  "_id": {
+    "$oid": "636ab1406fbf03bf4476744b"
+  },
+  "name": "Corneal Topography",
+  "image": "https://forestcityoptometry.com/wp-content/uploads/2019/07/FO73D21.jpg",
+  "price": 2300,
+  "description": "While you stare at an object, your eye doctor takes thousands of pictures of your eye to map the shape of your cornea. This can help them see if your cornea is curved (astigmatism). It also helps your doctor create contact lenses that fit your eye, and can help them prepare for things like corneal transplant surgery."
+},{
+  "_id": {
+    "$oid": "636ab1406fbf03bf4476744a"
+  },
+  "name": "Retinoscopy",
+  "image": "https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2013/08/26/10/08/my002455_im03547_vi7_refraction_assessmentthu_jpg.jpg",
+  "price": 2200,
+  "description": "You may be prompted to stare at a large target through a machine called a phoropter, while your eye care provider shines a light in your eyes and flips through a series of lenses. This test can help determine if you need vision correction, like eyeglasses or contact lenses."
+},{
+  "_id": {
+    "$oid": "636ab1406fbf03bf44767445"
+  },
+  "name": "Visual Refraction Eye Test",
+  "image": "https://static.wixstatic.com/media/bc95b8_b4765cff9f4546a28090f886c16cae72~mv2.jpg/v1/crop/x_699,y_18,w_4275,h_3977/fill/w_560,h_520,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/kid-smiling-and-raising-hand-while-under.jpg",
+  "price": 6400,
+  "description": "Refraction refers to the way light waves are bent as they pass through your cornea and lens. A refraction assessment helps your eye doctor determine if you need vision correction as well as the corrective lens prescription that will help give you the sharpest, clearest vision. Your vision provider may use a device called a phoropter to help determine your refractive error. This exam is performed in a dark room to help you better view the images through the phoropter lenses. Repeating this step several times helps your provider finds the lenses that can give you the best possible vision."
+},{
+  "_id": {
+    "$oid": "636ab1406fbf03bf44767444"
+  },
+  "name": "Visual Acuity Test",
+  "image": "https://www.news-medical.net/image.axd?picture=2018%2F9%2Fshutterstock_590138702.jpg",
+  "price": 3300,
+  "description": "This is the 'eye chart' test that you may be familiar with. You're positioned about 20 feet away from the chart and asked to identify a series of letters printed on a chart (officially called a Snellen Eye Chart). The lines of type get smaller as you move down the chart. You cover one eye and read aloud, then cover the other eye and read aloud."
+},{
+  "_id": {
+    "$oid": "636ab1406fbf03bf44767446"
+  },
+  "name": "Visual Field Test",
+  "image": "https://cdn.grandvision.io/binaries/_ht_1647512777559/content/gallery/gb-visionexpress/content-pages/eye-health/eye_test_simply_explained/kids_eye_test/et_kids_what_happends_d.jpg",
+  "price": 5400,
+  "description": "This test helps determine your field of vision for the area right in front of you, or what you can see without moving your eyes. It also checks your peripheral vision. While there are a few different types of visual field tests, the most common procedure is performed with a device called an autoperimeter. Your provider uses a computer program that flashes small lights as you look into the bowl-shaped autoperimeter. You may be asked to press a button when you see the lights."
+},{
+  "_id": {
+    "$oid": "636ab1406fbf03bf44767448"
+  },
+  "name": "Glaucoma Test",
+  "image": "https://www.jeanrigbyopticians.co.uk/wp-content/uploads/2020/03/test_lenses.jpg",
+  "price": 3400,
+  "description": "This exam measures the pressure inside your eye, referred to as intraocular pressure. It helps your eye doctor detect glaucoma, a disease that causes pressure to build up inside your eyes and can cause blindness. Glaucoma can be treated if its caught early. The most common test for eye pressure today is called non-contact tonometry. A device called a tonometer injects a puff of air into your eye to test the pressure. Another commonly used glaucoma test is called pachymetry, which measures the thickness of your cornea, an important factor in evaluating your intraocular pressure measurement."
+},{
+  "_id": {
+    "$oid": "636ab1406fbf03bf44767449"
+  },
+  "name": "Color Blind Test",
+  "image": "https://cdn.grandvision.io/binaries/_ht_1568715511001/content/gallery/ie-visionexpress/content-pages/contact-lenses/2019-contact-lenses-woman-eye-test.jpg",
+  "price": 2000,
+  "description": "This test screens for color blindness by examining your ability to distinguish colors. You might be asked to detect a number or letter within an image of multicolored circles."
+}]
